@@ -1,0 +1,123 @@
+* {
+  font-family: "Catamaran", sans-serif;
+  box-sizing: border-box;
+ 
+}
+/* html {
+  height: 100%;
+} */
+body {
+  background-color: #202123;
+  background-size: cover;
+  margin: 0;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 600px; */
+}
+.wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+}
+.wraper p {
+  color: #fff;
+}
+
+.score {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Fascinate Inline;
+  background-image: linear-gradient(180deg, #fff, #87f1ff);
+  font-weight: 400;
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  filter: drop-shadow(2px 2px #0085a3);
+  font-size: 70px;
+  text-align: center;
+  margin: 20px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.start,
+.next {
+  cursor: pointer;
+  background: #87CEEB;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+  margin: 20px 0;
+  padding: 10px 40px;
+}
+.start:hover, .next:hover{
+    opacity: 0.8;
+}
+.downbuttons{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.end{
+    background: transparent;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    margin: 20px 0;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.end:hover{
+    border: 1px solid #fff;
+}
+.start {
+  max-width: 200px;
+}
+.trophy img{
+    height: 200px;
+    width: 170px;
+}
+.congo{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700px;
+}
+.yscore{
+    color: #fff;
+    font-size: 20px;
+    opacity: 0.7;
+}
+.scored{
+    color:aquamarine;
+    font-size: 40px;
+}
+.cross img{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+border: 1px solid #fff;
+color: #fff;
+padding: 10px;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
