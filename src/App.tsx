@@ -84,7 +84,7 @@ const App: React.FC = () => {
   return (
     <>
       <div className="home">
-        {!isSubmit && <h1>Math Quiz</h1>}
+        {!isSubmit && <h1>Mathematics Quiz</h1>}
 
         {gameOver && !isSubmit ? (
           // || userAnswers.length === TOTAL_QUESTIONS
