@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  max-width: 1100px;
+  max-width: 400px;
   padding: 20px;
   text-align: center;
 
@@ -28,7 +28,7 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
     cursor: pointer;
     user-select: none;
     font-size: 20px;
-    width: 100%;
+    width: 360px;
     padding: 10px 0;
     margin: 15px 0;
     background: ${({ correct, userClicked }) =>

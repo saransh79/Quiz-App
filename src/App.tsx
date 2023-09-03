@@ -82,7 +82,7 @@ const App: React.FC = () => {
     setScore(0);
   };
   return (
-    <>
+    <div className="wraper">
       <div className="home">
         {!isSubmit && <h1>Mathematics Quiz</h1>}
 
@@ -106,7 +106,6 @@ const App: React.FC = () => {
           callback={checkAnswer}
         />
       )}
-      <div>
         {!gameOver && !loading ? (
           //  &&
           // userAnswers.length === number + 1 &&
@@ -126,7 +125,6 @@ const App: React.FC = () => {
             )}
           </div>
         ) : null}
-      </div>
 
       {isSubmit ? (
         <div className="result">
@@ -144,7 +142,7 @@ const App: React.FC = () => {
           </div>
         </div>
       ) : null}
-    </>
+    </div>
   );
 };
 

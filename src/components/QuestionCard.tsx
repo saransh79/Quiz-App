@@ -21,12 +21,12 @@ const QuestionCard: React.FC<Props> = ({
   questionNr,
   totalQuestions,
 }) => (
-  <Wrapper>
+  <Wrapper className='problemWraper'>
     <p className='number'>
       Question: {questionNr} / {totalQuestions}
     </p>
     <p dangerouslySetInnerHTML={{ __html: question }} />
-    <div>
+    <div className='options'>
       {answers.map((answer) => (
         <ButtonWrapper
           key={answer}
